@@ -8,9 +8,11 @@ import ChatHeader from './ChatHeader';
 
 function Chat() {
     return (
-        <div>
+        <div className="chat">
             <ChatHeader/>
-            <div className="chat__messages"></div>
+            <div className="chat__messages">
+                
+            </div>
             <div className="chat__input">
                 <AddCircleIcon />
                 <form>
